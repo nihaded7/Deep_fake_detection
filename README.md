@@ -38,7 +38,7 @@ We used the **Celeb-DF (v2)** dataset [[Li et al., CVPR 2020]](https://openacces
 
   ### 🔖 Citation
 If you use this dataset, please cite:
-```bibtex
+bibtex
 @inproceedings{li2020celebdf,
   title={Celeb-DF: A Large-scale Challenging Dataset for DeepFake Forensics},
   author={Li, Yuezun and Yang, Xin and Sun, Pu and Qi, Honggang and Lyu, Siwei},
