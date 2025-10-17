@@ -38,7 +38,7 @@ We used the **Celeb-DF (v2)** dataset [[Li et al., CVPR 2020]](https://openacces
 
   ### 🔖 Citation
 If you use this dataset, please cite:
-bibtex
+
 @inproceedings{li2020celebdf,
   title={Celeb-DF: A Large-scale Challenging Dataset for DeepFake Forensics},
   author={Li, Yuezun and Yang, Xin and Sun, Pu and Qi, Honggang and Lyu, Siwei},
@@ -239,7 +239,7 @@ We developed an intuitive **web interface using Streamlit** with the following f
 - NumPy, Pandas  
 
 ### Installation
-```bash
+
 # Clone repository
 git clone https://github.com/your-username/deepfake-detection.git
 cd deepfake-detection
@@ -248,7 +248,7 @@ cd deepfake-detection
 pip install -r requirements.txt
 
 ### Installation
-```bash
+
 # Train models
 python train_cnn_lstm.py
 python train_resnet_lstm.py
