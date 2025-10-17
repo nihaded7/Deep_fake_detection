@@ -279,9 +279,9 @@ This project highlights the potential of hybrid deep learning architectures in a
 
 - **EL Gamani Ahlam**
 
-**Supervised by**: Prof. Belcaid Anas
-**Academic Year**: 2024-2025
-**Institution**: École Nationale des Sciences Appliquées de Tétouan
+- **Supervised by**: Prof. Belcaid Anas
+- **Academic Year**: 2024-2025
+- **Institution**: École Nationale des Sciences Appliquées de Tétouan
 ---
 # 📜 License
 This project is for academic and research purposes. Please cite the original dataset and authors if used in research or publications.
