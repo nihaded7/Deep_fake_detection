@@ -198,7 +198,8 @@ We developed an intuitive **web interface using Streamlit** with the following f
 
 
 ### app
-![1](assets/image1(1).png)
+![1](assets/image1(1).png) 
+
 ![2](assets/image2(1).png)
 ![3](assets/image3(1).png)
 ![4](assets/image4(1).png)
