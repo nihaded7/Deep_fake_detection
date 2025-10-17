@@ -287,7 +287,7 @@ This project highlights the potential of hybrid deep learning architectures in a
 This project is for academic and research purposes. Please cite the original dataset and authors if used in research or publications.
 
 ---
-#🙏 Acknowledgments
+# 🙏 Acknowledgments
 
 - Celeb-DF dataset creators for providing high-quality benchmark data
 
