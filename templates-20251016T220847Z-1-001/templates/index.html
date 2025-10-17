@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='face2.png') }}" type="png">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="{{ url_for('static', filename='face2.png') }}" alt="logo" width="50" height="50">
+                </a>
+            </div>
+            
+            <ul class="menu">
+                <li><a href="{{ url_for('deepfake') }}">Deepfake Detection</a></li>
+                
+            </ul>
+        </nav>
+        <div class="text-content">
+            <h2>Protect Your Content,<br>Detect Deepfakes Instantly</h2>
+            <p>
+                In today's digital world, deepfakes pose a serious threat to the authenticity of online content. 
+                Our advanced detection system helps you quickly identify manipulated videos, ensuring the integrity 
+                of your media and protecting your audience from misinformation.
+            </p>
+            
+        </div>
+        <div class="play-button">
+            <span class="play">Play Video</span>
+            <i class="fas fa-play" onclick="click()"></i>
+        </div>
+    </header>
+    <script src="{{ url_for('static', filename='page.js') }}"></script>
+</body>
+</html>

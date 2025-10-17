@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detection</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='face2.png') }}" type="png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Deepfake Detection</h1>
+        <p>Upload a video or an image to check for deepfake content.</p>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>Upload Your File</h2>
+            <form id="upload-form" action="/test_model" method="post" enctype="multipart/form-data">
+
+                <input type="file" name="file" accept="video/*,image/*" required>
+                <button type="submit">Analyze</button>
+            </form>
+        </section>
+
+        {% if result %}
+        <section class="result-section">
+            <h2>Analysis Result</h2>
+
+            <p>The video is classified as: <strong>{{ result }}</strong></p>
+            <h3>Probabilities:</h3>
+            <ul>
+                {% for label, prob in probabilities.items() %}
+                    <li>{{ label }}: {{ prob }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if frame_images %}
+        <section class="frames-section">
+            <h2>Extracted Frames</h2>
+                      
+            <div class="frames-container">
+                {% for image in frame_images %}
+                    <div class="frame-item">
+                        <img src="{{ url_for('static', filename=image) }}" alt="Frame">
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Deepfake Detection Tool - Empowering Media Integrity</p>
+    </footer>
+</body>
+</html>
