@@ -196,6 +196,22 @@ We developed an intuitive **web interface using Streamlit** with the following f
 
 ---
 
+
+### app
+![1](assets/image1(1).png)
+![2](image2(1).png)
+![3](image3(1).png)
+![4](image4(1).png)
+![5](image5(1).png)
+![6](image6.png)
+![7](image7.png)
+![8](image8.png)
+![9](image9.png)
+
+
+
+---
+
 ## 🚧 Challenges & Solutions
 
 | Challenge | Impact | Solution Implemented |
