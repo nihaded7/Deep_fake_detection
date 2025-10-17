@@ -200,14 +200,14 @@ We developed an intuitive **web interface using Streamlit** with the following f
 ### app
 ![1](assets/image1(1).png) 
 
-![2](assets/image2(1).png)
-![3](assets/image3(1).png)
-![4](assets/image4(1).png)
-![5](assets/image5(1).png)
-![6](assets/image6.png)
-![7](assets/image7.png)
-![8](assets/image8.png)
-![9](assets/image9.png)
+![2](assets/image2(1).jpg)
+![3](assets/image3(1).jpg)
+![4](assets/image4(1).jpg)
+![5](assets/image5(1).jpg)
+![6](assets/image6.jpg)
+![7](assets/image7.jpg)
+![8](assets/image8.jpg)
+![9](assets/image9.jpg)
 
 
 
